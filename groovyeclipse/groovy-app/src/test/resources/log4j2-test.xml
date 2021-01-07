@@ -1,0 +1,18 @@
+<Configuration monitorInterval="30" verbose="true">
+  <Appenders>
+    <Console name="STDOUT" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS}{GMT+12} [%t] %-5level %logger{36} - %msg%n"/>
+      <!-- <JsonLayout complete="false" compact="true" eventEol="true" objectMessageAsJsonObject="false" properties="true" stacktraceAsString="true">
+        <KeyValuePair key="timestamp" value="$${date:yyyy-MM-dd'T'HH:mm:ss.SSSZ}"/>
+      </JsonLayout> -->
+    </Console>
+  </Appenders>
+
+  <Loggers>
+    <AsyncLogger name="io.osnz" level="debug" />
+    <AsyncLogger name="org.springframework.boot" level="info" />
+    <AsyncRoot level="warning">
+      <AppenderRef ref="STDOUT"/>
+    </AsyncRoot>
+  </Loggers>
+</Configuration>

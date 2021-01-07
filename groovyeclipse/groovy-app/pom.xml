@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>io.osnz.demos</groupId>
+  <artifactId>groovy-app</artifactId>
+  <version>1.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>groovy-app</name>
+  <description>groovy-app</description>
+  <url>https://github.com/kdeng/groovy-app</url>
+
+  <properties>
+    <!-- dependency version -->
+    <composite-groovy.version>6.2</composite-groovy.version>
+    <composite-spring.version>5.18</composite-spring.version>
+    <common-jackson.version>2.2</common-jackson.version>
+    <composite-jackson.version>2.12</composite-jackson.version>
+    <spring-core.version>5.2.0.RELEASE</spring-core.version>
+    <spring-boot.version>2.1.9.RELEASE</spring-boot.version>
+    <lombok.version>1.18.10</lombok.version>
+
+    <!-- plugin version -->
+    <tiles-maven-plugin.version>2.15</tiles-maven-plugin.version>
+  </properties>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>nz.net.osnz.composite</groupId>
+      <artifactId>composite-groovy</artifactId>
+      <version>[${composite-groovy.version}]</version>
+    </dependency>
+
+    <!-- core dependencies -->
+    <dependency>
+      <groupId>nz.net.osnz.composite</groupId>
+      <artifactId>composite-spring-webmvc</artifactId>
+      <version>[${composite-spring.version}]</version>
+    </dependency>
+    <dependency>
+      <groupId>nz.net.osnz.composite</groupId>
+      <artifactId>composite-spring-boot</artifactId>
+      <version>[${composite-spring.version}]</version>
+    </dependency>
+    <dependency>
+      <groupId>nz.net.osnz.composite</groupId>
+      <artifactId>composite-spring-boot-undertow</artifactId>
+      <version>[${composite-spring.version}]</version>
+    </dependency>
+    <dependency>
+      <groupId>nz.net.osnz.composite</groupId>
+      <artifactId>composite-spring-boot-log4j2</artifactId>
+      <version>[${composite-spring.version}]</version>
+    </dependency>
+    <dependency>
+      <groupId>nz.net.osnz.composite</groupId>
+      <artifactId>composite-jackson</artifactId>
+      <version>[${composite-jackson.version}]</version>
+    </dependency>
+    <dependency>
+      <groupId>nz.net.osnz.common</groupId>
+      <artifactId>common-jackson</artifactId>
+      <version>[${common-jackson.version}]</version>
+    </dependency>
+
+    <!-- test scope -->
+    <dependency>
+      <groupId>nz.net.osnz.composite</groupId>
+      <artifactId>composite-spring-boot-test</artifactId>
+      <version>[${composite-spring.version}]</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>nz.net.osnz.composite</groupId>
+      <artifactId>composite-spring-test</artifactId>
+      <version>[${composite-spring.version}]</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- spring boot devtools -->
+    <dependency>
+      <groupId>nz.net.osnz.composite</groupId>
+      <artifactId>composite-spring-boot-devtools</artifactId>
+      <version>[${composite-spring.version}]</version>
+      <optional>true</optional>
+    </dependency>
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>[${lombok.version}]</version>
+      <scope>provided</scope>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>io.repaint.maven</groupId>
+        <artifactId>tiles-maven-plugin</artifactId>
+        <version>${tiles-maven-plugin.version}</version>
+        <extensions>true</extensions>
+        <configuration>
+          <filtering>false</filtering>
+          <tiles>
+            <tile>io.osnz.tiles:tile-java11:[1.1,2)</tile>
+            <tile>io.osnz.tiles:tile-groovy:[1.1,2)</tile>
+          </tiles>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

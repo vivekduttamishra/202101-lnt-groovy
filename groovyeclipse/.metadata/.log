@@ -118,3 +118,340 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-07 10:01:01.689
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-07 10:01:01.690
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2eaee324[org.springframework.tooling.boot.ls:1.23.0.202010230633(id=1059)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-07 10:01:01.694
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-07 10:01:01.741
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.add.import'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.organize.imports'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.open.hierarchy'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-01-07 10:01:02.480
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-07 10:01:04.443
+!MESSAGE Boot LS startup time from start to initialized: 2738ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-07 10:01:04.562
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.aLrGOxMIisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-07 10:01:04.566
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-07 10:01:04.568
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-07 10:01:04.569
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-07 10:01:04.569
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-07 10:01:04.569
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.aLrGOxMI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-07 10:01:04.572
+!MESSAGE classpath=7 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-07 10:01:04.573
+!MESSAGE buffering callback sts4.classpath.aLrGOxMI groovydemo01 false 7
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-07 10:01:04.573
+!MESSAGE executing callback sts4.classpath.aLrGOxMI 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-07 10:01:04.593
+!MESSAGE executing callback sts4.classpath.aLrGOxMI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-07 10:02:47.395
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.aLrGOxMI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-07 10:02:47.396
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.aLrGOxMI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-07 10:02:47.397
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-07 10:02:47.398
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.aLrGOxMI => OK
+
+!ENTRY org.eclipse.jdt.core 2 0 2021-01-07 10:36:39.511
+!MESSAGE Invalid package binding for default import: java.io
+
+!ENTRY org.eclipse.jdt.core 2 0 2021-01-07 10:36:39.513
+!MESSAGE Invalid package binding for default import: java.net
+
+!ENTRY org.eclipse.jdt.core 2 0 2021-01-07 10:36:39.514
+!MESSAGE Invalid package binding for default import: java.util
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-01-07 11:10:22.575
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-01-07 11:31:55.253
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-01-07 11:31:57.532
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [BankAccount(int, String, String, Numbe) [in BankAccount [in [Working copy] BankAccount.groovy [in in.conceptarchitect.finance [in src [in bankaccountdemo02]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:575)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:618)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:325)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:311)
+	at org.eclipse.jdt.internal.core.SourceRefElement.getSourceRange(SourceRefElement.java:233)
+	at org.eclipse.jdt.internal.core.Member.getJavadocRange(Member.java:301)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:639)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:515)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1800)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1792)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-01-07 11:31:57.533
+!MESSAGE BankAccount(int, String, String, Numbe) [in BankAccount [in [Working copy] BankAccount.groovy [in in.conceptarchitect.finance [in src [in bankaccountdemo02]]]]] does not exist
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-01-07 11:42:12.553
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.groovy.core 4 0 2021-01-07 12:35:11.193
+!MESSAGE Groovy-Eclipse Type Inferencing: Error visiting method main in class Program
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.codehaus.groovy.ast.MethodNode.getReturnType()" because "closestMatch" is null
+	at org.eclipse.jdt.groovy.search.SimpleTypeLookup.findType(SimpleTypeLookup.java:349)
+	at org.eclipse.jdt.groovy.search.SimpleTypeLookup.lookupType(SimpleTypeLookup.java:98)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.lookupExpressionType(TypeInferencingVisitorWithRequestor.java:2754)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.handleSimpleExpression(TypeInferencingVisitorWithRequestor.java:2024)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.handleSimpleExpression(TypeInferencingVisitorWithRequestor.java:2029)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitStaticMethodCallExpression(TypeInferencingVisitorWithRequestor.java:1685)
+	at org.codehaus.groovy.ast.expr.StaticMethodCallExpression.visit(StaticMethodCallExpression.java:44)
+	at org.codehaus.groovy.ast.CodeVisitorSupport.visitExpressionStatement(CodeVisitorSupport.java:117)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitExpressionStatement(ClassCodeVisitorSupport.java:252)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitExpressionStatement(TypeInferencingVisitorWithRequestor.java:1141)
+	at org.codehaus.groovy.ast.stmt.ExpressionStatement.visit(ExpressionStatement.java:41)
+	at org.codehaus.groovy.ast.CodeVisitorSupport.visitBlockStatement(CodeVisitorSupport.java:86)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitBlockStatement(ClassCodeVisitorSupport.java:216)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitBlockStatement(TypeInferencingVisitorWithRequestor.java:870)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:70)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:165)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitConstructorOrMethod(TypeInferencingVisitorWithRequestor.java:1111)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitMethodInternal(TypeInferencingVisitorWithRequestor.java:658)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitJDT(TypeInferencingVisitorWithRequestor.java:466)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitJDT(TypeInferencingVisitorWithRequestor.java:375)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitCompilationUnit(TypeInferencingVisitorWithRequestor.java:255)
+	at org.codehaus.groovy.eclipse.search.GroovyOccurrencesFinder.internalFindOccurences(GroovyOccurrencesFinder.java:138)
+	at org.codehaus.groovy.eclipse.search.GroovyOccurrencesFinder.getOccurrences(GroovyOccurrencesFinder.java:86)
+	at org.codehaus.groovy.eclipse.search.GroovyOccurrencesFinder.findOccurrences(GroovyOccurrencesFinder.java:194)
+	at org.codehaus.groovy.eclipse.editor.GroovyEditor.updateOccurrenceAnnotations(GroovyEditor.java:1314)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3349)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:176)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.groovy.core 4 0 2021-01-07 12:40:17.080
+!MESSAGE Groovy-Eclipse Type Inferencing: Error visiting method main in class Program
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.codehaus.groovy.ast.MethodNode.getReturnType()" because "closestMatch" is null
+	at org.eclipse.jdt.groovy.search.SimpleTypeLookup.findType(SimpleTypeLookup.java:349)
+	at org.eclipse.jdt.groovy.search.SimpleTypeLookup.lookupType(SimpleTypeLookup.java:98)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.lookupExpressionType(TypeInferencingVisitorWithRequestor.java:2754)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.handleSimpleExpression(TypeInferencingVisitorWithRequestor.java:2024)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.handleSimpleExpression(TypeInferencingVisitorWithRequestor.java:2029)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitStaticMethodCallExpression(TypeInferencingVisitorWithRequestor.java:1685)
+	at org.codehaus.groovy.ast.expr.StaticMethodCallExpression.visit(StaticMethodCallExpression.java:44)
+	at org.codehaus.groovy.ast.CodeVisitorSupport.visitExpressionStatement(CodeVisitorSupport.java:117)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitExpressionStatement(ClassCodeVisitorSupport.java:252)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitExpressionStatement(TypeInferencingVisitorWithRequestor.java:1141)
+	at org.codehaus.groovy.ast.stmt.ExpressionStatement.visit(ExpressionStatement.java:41)
+	at org.codehaus.groovy.ast.CodeVisitorSupport.visitBlockStatement(CodeVisitorSupport.java:86)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitBlockStatement(ClassCodeVisitorSupport.java:216)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitBlockStatement(TypeInferencingVisitorWithRequestor.java:870)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:70)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:165)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitConstructorOrMethod(TypeInferencingVisitorWithRequestor.java:1111)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitMethodInternal(TypeInferencingVisitorWithRequestor.java:658)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitJDT(TypeInferencingVisitorWithRequestor.java:466)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitJDT(TypeInferencingVisitorWithRequestor.java:375)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitCompilationUnit(TypeInferencingVisitorWithRequestor.java:255)
+	at org.codehaus.groovy.eclipse.search.GroovyOccurrencesFinder.internalFindOccurences(GroovyOccurrencesFinder.java:138)
+	at org.codehaus.groovy.eclipse.search.GroovyOccurrencesFinder.getOccurrences(GroovyOccurrencesFinder.java:86)
+	at org.codehaus.groovy.eclipse.search.GroovyOccurrencesFinder.findOccurrences(GroovyOccurrencesFinder.java:194)
+	at org.codehaus.groovy.eclipse.editor.GroovyEditor.updateOccurrenceAnnotations(GroovyEditor.java:1314)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3349)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:176)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.groovy.core 4 0 2021-01-07 12:40:21.142
+!MESSAGE Groovy-Eclipse Type Inferencing: Error visiting method main in class Program
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.codehaus.groovy.ast.MethodNode.getReturnType()" because "closestMatch" is null
+	at org.eclipse.jdt.groovy.search.SimpleTypeLookup.findType(SimpleTypeLookup.java:349)
+	at org.eclipse.jdt.groovy.search.SimpleTypeLookup.lookupType(SimpleTypeLookup.java:98)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.lookupExpressionType(TypeInferencingVisitorWithRequestor.java:2754)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.handleSimpleExpression(TypeInferencingVisitorWithRequestor.java:2024)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.handleSimpleExpression(TypeInferencingVisitorWithRequestor.java:2029)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitStaticMethodCallExpression(TypeInferencingVisitorWithRequestor.java:1685)
+	at org.codehaus.groovy.ast.expr.StaticMethodCallExpression.visit(StaticMethodCallExpression.java:44)
+	at org.codehaus.groovy.ast.CodeVisitorSupport.visitExpressionStatement(CodeVisitorSupport.java:117)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitExpressionStatement(ClassCodeVisitorSupport.java:252)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitExpressionStatement(TypeInferencingVisitorWithRequestor.java:1141)
+	at org.codehaus.groovy.ast.stmt.ExpressionStatement.visit(ExpressionStatement.java:41)
+	at org.codehaus.groovy.ast.CodeVisitorSupport.visitBlockStatement(CodeVisitorSupport.java:86)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitBlockStatement(ClassCodeVisitorSupport.java:216)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitBlockStatement(TypeInferencingVisitorWithRequestor.java:870)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:70)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:165)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitConstructorOrMethod(TypeInferencingVisitorWithRequestor.java:1111)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitMethodInternal(TypeInferencingVisitorWithRequestor.java:658)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitJDT(TypeInferencingVisitorWithRequestor.java:466)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitJDT(TypeInferencingVisitorWithRequestor.java:375)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitCompilationUnit(TypeInferencingVisitorWithRequestor.java:255)
+	at org.codehaus.groovy.eclipse.search.GroovyOccurrencesFinder.internalFindOccurences(GroovyOccurrencesFinder.java:138)
+	at org.codehaus.groovy.eclipse.search.GroovyOccurrencesFinder.getOccurrences(GroovyOccurrencesFinder.java:86)
+	at org.codehaus.groovy.eclipse.search.GroovyOccurrencesFinder.findOccurrences(GroovyOccurrencesFinder.java:194)
+	at org.codehaus.groovy.eclipse.editor.GroovyEditor.updateOccurrenceAnnotations(GroovyEditor.java:1314)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3349)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:176)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.groovy.core 4 0 2021-01-07 12:40:22.673
+!MESSAGE Groovy-Eclipse Type Inferencing: Error visiting method main in class Program
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.codehaus.groovy.ast.MethodNode.getReturnType()" because "closestMatch" is null
+	at org.eclipse.jdt.groovy.search.SimpleTypeLookup.findType(SimpleTypeLookup.java:349)
+	at org.eclipse.jdt.groovy.search.SimpleTypeLookup.lookupType(SimpleTypeLookup.java:98)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.lookupExpressionType(TypeInferencingVisitorWithRequestor.java:2754)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.handleSimpleExpression(TypeInferencingVisitorWithRequestor.java:2024)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.handleSimpleExpression(TypeInferencingVisitorWithRequestor.java:2029)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitStaticMethodCallExpression(TypeInferencingVisitorWithRequestor.java:1685)
+	at org.codehaus.groovy.ast.expr.StaticMethodCallExpression.visit(StaticMethodCallExpression.java:44)
+	at org.codehaus.groovy.ast.CodeVisitorSupport.visitExpressionStatement(CodeVisitorSupport.java:117)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitExpressionStatement(ClassCodeVisitorSupport.java:252)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitExpressionStatement(TypeInferencingVisitorWithRequestor.java:1141)
+	at org.codehaus.groovy.ast.stmt.ExpressionStatement.visit(ExpressionStatement.java:41)
+	at org.codehaus.groovy.ast.CodeVisitorSupport.visitBlockStatement(CodeVisitorSupport.java:86)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitBlockStatement(ClassCodeVisitorSupport.java:216)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitBlockStatement(TypeInferencingVisitorWithRequestor.java:870)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:70)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:165)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitConstructorOrMethod(TypeInferencingVisitorWithRequestor.java:1111)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitMethodInternal(TypeInferencingVisitorWithRequestor.java:658)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitJDT(TypeInferencingVisitorWithRequestor.java:466)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitJDT(TypeInferencingVisitorWithRequestor.java:375)
+	at org.eclipse.jdt.groovy.search.TypeInferencingVisitorWithRequestor.visitCompilationUnit(TypeInferencingVisitorWithRequestor.java:255)
+	at org.codehaus.groovy.eclipse.search.GroovyOccurrencesFinder.internalFindOccurences(GroovyOccurrencesFinder.java:138)
+	at org.codehaus.groovy.eclipse.search.GroovyOccurrencesFinder.getOccurrences(GroovyOccurrencesFinder.java:86)
+	at org.codehaus.groovy.eclipse.search.GroovyOccurrencesFinder.findOccurrences(GroovyOccurrencesFinder.java:194)
+	at org.codehaus.groovy.eclipse.editor.GroovyEditor.updateOccurrenceAnnotations(GroovyEditor.java:1314)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3349)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:176)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
