@@ -22,7 +22,8 @@ class Program {
 		a1.deposit(500000)
 		show a1
 		
-		println a1.getBalance()
+		println a1.balance
+		
 		
 	}
 	static def show(def account) {

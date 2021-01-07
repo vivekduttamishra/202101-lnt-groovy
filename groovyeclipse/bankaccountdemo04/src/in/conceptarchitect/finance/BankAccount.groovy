@@ -22,6 +22,27 @@ class BankAccount {
 	}
 
 
+	def deposit(double amount) {
+		if(amount>0)
+			balance+=amount
+	}
+
+	def withdraw(double amount, String password) {
+		if(amount<0)
+			return
+		if(amount>balance)
+			return
+		if(this.password==password)
+			balance-=amount
+	}
+
+	def creditInterest() {
+		balance+= balance*interestRate/120
+	}
+	
+	
+	
+	
 	public String getName() { name }
 
 	public void setName(String name) {
@@ -43,15 +64,5 @@ class BankAccount {
 		balance>500000
 	}
 
-	def deposit(double amount) {
-		balance+=amount
-	}
-
-	def withdraw(double amount, String password) {
-		balance-=amount
-	}
-
-	def creditInterest() {
-		balance+= balance*interestRate/1200
-	}
+	
 }
