@@ -6,14 +6,16 @@
 
 def histogram  ( options,freq) {
 
-    println "freq=$freq, options=$options"
     
-    def showValues= options.showValues? options.showValues : true
+    
+    def showValues= options.showValues==null? true: options.showValues 
 
-    def align = showValues &&  options.align
+    def align = options.align==null?true:options.align
 
     def design=options.design?:'=== '   //if no design supplied use the default
     
+    println "freq=$freq, align=$align, design=$design, showValues=$showValues"
+
     def max=0
     if(align){
         for(def x in freq){            
@@ -32,7 +34,7 @@ def histogram  ( options,freq) {
         def label= "$key".padLeft(5)
         def bar= (design*value)
 
-        bar= align ?  bar*padRight(max)  : bar
+        bar= align ?  bar.padRight(max)  : bar
 
         def fvalue= showValues? "$value".padLeft(5) : ""
 
@@ -47,5 +49,11 @@ def histogram  ( options,freq) {
 
 def f=[2:5, 3:2, 4:3, 5:5]
 
-histogram(f, design:'XXXX ')
+histogram(f, align:true)
 
+histogram(f, design:'XXXX', align:false)
+
+histogram(f, design:'XXXX', showValues:false)
+
+
+histogram(f,design:'▓▓▓')
